@@ -410,12 +410,12 @@ fun criarPersonagem() {
                     ){
 
 
-                        personagem.definirPontosDeVida()
                         personagem.adicionarBonusHabilidade()
+                        personagem.definirPontosDeVida()
                         Text("Personagem criado com sucesso!")
                         Text("Nome: ${personagem.nome}")
                         Text("Pontos de Vida: ${personagem.pontosDeVida}")
-//                        Text("Raça: ${personagem.raca}")
+                        Text("Raça: ${raca}")
                         Text("Força: ${personagem.forca}")
                         Text("Destreza: ${personagem.destreza}")
                         Text("Constituição: ${personagem.constituicao}")
